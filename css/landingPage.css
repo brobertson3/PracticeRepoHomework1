@@ -1,0 +1,43 @@
+/* Constant Themes -----------------------------  */
+
+body {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* The picture of me on the page ----------------------------- */
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-family: 'Permanent Marker', sans-serif;
+}
+
+h3#about_me {
+  visibility: hidden;
+  border: 3px solid #2663d9;
+}
+
+h3#portfolio {
+  visibility: hidden;
+  border: 3px solid #f20d0d;
+}
+
+h3 {
+  font-size: 2em;
+  font-family: 'Permanent Marker', sans-serif;
+  text-align: center;
+}
+
+div.middle_text {
+  vertical-align: text-top;
+  min-height: 100%;
+  height: auto;
+}

@@ -1,0 +1,29 @@
+/* The main header ----------------------------- */
+
+.main_header {
+  background-color: #000;
+  text-align: center;
+  vertical-align: center;
+  margin: 0 0 20px 0px;
+  /* Creates a subtle blur effect between header and body */
+  box-shadow: inset -5px -8px 4px -8px #fff;  
+  position: relative;
+  top: -20px;
+}
+
+.main_header span#bare, span#medium {
+  margin: 0;
+  display: inline;
+  font-size: 4rem;
+  text-shadow: -1px 0 1px #fff, 0 1px 1px #fff, 1px 0 1px #fff, 0 -1px 1px #fff;
+}
+
+.main_header span#bare {
+  color: #2663d9;
+  font-family: 'Glegoo', cursive;
+}
+
+.main_header span#medium {
+  color: #f20d0d;
+  font-family: 'Finger Paint', sans-serif;
+}
